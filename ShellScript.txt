@@ -1,6 +1,15 @@
+Script file architechture: 
 Hardware ==> kernel ==> shell ==> commands 
 
 echo $SHELL ==> for which shell  u r using now 
 
+before executing the file we have to change it as a executable file for that 
+     chmod +x myscript.sh // now here the file permission will be changed and also if the user is a root user it wont ask the 
+     permission for changing the permission if it is a normal user it will defenetly ask the permission 
+
 #!bin/bash // this is hasbang/shebang the first line for all scripts it indicates that this script is a bash script 
+
+usually in scripting  # indicates that it is a command line but in scripting first line is not a command 
+
+
 
