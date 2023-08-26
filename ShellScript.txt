@@ -27,3 +27,5 @@ echo 'I'm  $age years old' // showing error if we want ' this we can use like \'
 redirection:
       now=$(date)
       // here first check the utilites then it will store in the now variable... 
+genrally enviranmental variables are stored in capital letters 
+env - is a command for listing the system variables 
