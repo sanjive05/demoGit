@@ -1,0 +1,6 @@
+Hardware ==> kernel ==> shell ==> commands 
+
+echo $SHELL ==> for which shell  u r using now 
+
+#!bin/bash // this is hasbang/shebang the first line for all scripts it indicates that this script is a bash script 
+
