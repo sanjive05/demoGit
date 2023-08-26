@@ -11,5 +11,19 @@ before executing the file we have to change it as a executable file for that
 
 usually in scripting  # indicates that it is a command line but in scripting first line is not a command 
 
+Variables:
+     myname= "Sanjive "
+     echo $myname  // output : Sanjive 
+// These type of variable only that terminal session. if we close the terminal it will gone     
+so for that we can create script and then we can run again and again when ever we want 
 
-
+nano variableDemo.sh
+// chmod +x variableDemo.sh // for changing the permission to executable file 
+#!bin/bash
+myname="Sanjive"
+age= "40" 
+echo "My name is $myname" // if we use single quatos's it won't work just it will print My name is myname 
+echo 'I'm  $age years old' // showing error if we want ' this we can use like \' this .. 
+redirection:
+      now=$(date)
+      // here first check the utilites then it will store in the now variable... 
