@@ -29,3 +29,21 @@ redirection:
       // here first check the utilites then it will store in the now variable... 
 genrally enviranmental variables are stored in capital letters 
 env - is a command for listing the system variables 
+
+Basic Math functions:
+normal math function for evaluation ==> expr 40 + 30 
+// but * symbol won't work normally because it is a wilde card  ==> so \*  now it's work 
+let's create the variable mynum=100   
+  expr $mynum + 50 ==> 150 
+
+If statements:
+     if [ $mynum -eq 200 ]
+     then
+        echo "true"
+     else
+        echo "no that's not true"
+     fi 
+// if [ ! 200 -eq 300 ] ==> true ==> because not operator is here 
+ we can use ne (not equal ) instead of this  // eq - equal ne - not equal // gt - greater than 
+ 
+
