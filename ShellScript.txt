@@ -45,5 +45,15 @@ If statements:
      fi 
 // if [ ! 200 -eq 300 ] ==> true ==> because not operator is here 
  we can use ne (not equal ) instead of this  // eq - equal ne - not equal // gt - greater than 
- 
+
+Checking files using if: 
+      if [ -f ~/myfile ]  // here we have mention the path clearly 
+      then
+         echo "file exists"
+     fi 
+for directories we use -d 
+// htop is a command that will help to see the system process related informations 
+// for installing utilites by using script 
+   sudo apt update && sudo apt install -y $command 
+   
 
